@@ -5,16 +5,18 @@
 
 ## Projeto
 
-> authenticator
+> Authenticator
 
 ## Tecnologias utilizadas
 
 ```
+- Docker
 - Express
 - JWT
-- Typescript
-- TypeORM
 - MongoDB
+- Node.js
+- TypeScript
+- TypeORM
 ```
 
 ### Run dev ###

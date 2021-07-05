@@ -16,3 +16,7 @@
     - @types/express ==> pacote de tipagem do express
     - @types/jsonwebtoken ==> pacote de tipagem do jsonwebtoken
     - @types/mongodb ==> pacote de tipagem do mongodb
+
+### Docker
+- criar um arquivo docker-compose.yml para criar um container para rodar o mongoDB
+- docker-compose up ==> comando para rodar o container configurado
