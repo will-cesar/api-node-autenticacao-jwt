@@ -3,6 +3,7 @@ import * as cors from 'cors';
 import * as logger from 'morgan';
 
 import { connectToDb } from './config/db';
+import { authRouter } from './route/auth';
 
 export const app = express();
 
@@ -17,3 +18,6 @@ app.use(logger('dev'));
 
 // conecta ao banco
 connectToDb();
+
+// habilita a rota de autenticação na aplicação
+app.use('/auth', authRouter);
