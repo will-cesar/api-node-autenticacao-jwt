@@ -17,6 +17,8 @@
 - Utilização das funções do pacote "crypto" do node
 - Validação de senha com caracteres e números
 - Validação de e-mail utilizando o pacote "email-validator" do node
+- Geração e verificação do token
+- Aplicação de rota com autorização
 ```
 
 ## Tecnologias utilizadas
