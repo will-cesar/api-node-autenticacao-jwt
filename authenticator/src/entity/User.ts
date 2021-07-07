@@ -7,7 +7,8 @@ export enum STATUS {
     INVALID_NAME = 'Invalid name',
     INVALID_PASSWORD = 'The password must contain at least 8 characters, 1 uppercase character, and 1 digit',
     OK = 'Ok',
-    REGISTER_ERROR = 'An error occurred while trying to register the user'
+    REGISTER_ERROR = 'An error occurred while trying to register the user',
+    NOT_AUTHORIZED = 'User not authorized'
 }
 
 @Entity()
